@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-var morgan = require("morgan");
+
 app.get("/trang_chu", (req, res) => {
   res.send("Hello World!");
 });
